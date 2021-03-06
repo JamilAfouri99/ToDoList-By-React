@@ -2,7 +2,7 @@ span{
     width:85%;
     height:100%;
     padding: 0.4rem;
-    overflow: hidden ;
+    overflow: auto;
 }
 #btnn{
     width: 15%;
