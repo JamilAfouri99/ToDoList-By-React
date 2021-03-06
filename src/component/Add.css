@@ -1,0 +1,42 @@
+#innerDiv{
+    width:20%;
+    margin:0px;
+    padding:0px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    border-radius: 0px;
+}
+#in{
+    width: 80%;
+    height: 2rem;
+    background: none;
+    border: none;
+    background: whitesmoke;
+    border-radius: 0px;
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+#btn{
+    position:absolute;
+    height: 52%;
+    width: 16%;
+    background: whitesmoke;
+    border: none;
+    border-radius: 0px;
+    font-size: 1.5rem;
+    color:rgb(75, 75, 75);
+}
+#btn:focus{
+    outline: none;
+}
+#btn:hover{
+    background: rgb(75, 75, 75);
+    color: whitesmoke;
+}
+#btn:active{
+    
+    border:3px solid whitesmoke
+}

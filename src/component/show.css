@@ -1,0 +1,26 @@
+span{
+    width:85%;
+    height:100%;
+    padding: 0.4rem;
+    overflow: hidden ;
+}
+#btnn{
+    width: 15%;
+    height: 100%;
+    background: none;
+    border: none;
+    color: #a10000;
+    transition: all 0.5s ease;
+}
+#btnn:hover{
+    color:#a5a5a5;
+    background:#a10000;
+}
+#btnn:focus{
+    outline:none;
+}
+#btnn:active{
+    color:#a10000;
+    border:2px solid #a10000;
+    background:#a5a5a5;
+}

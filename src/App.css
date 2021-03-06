@@ -1,0 +1,72 @@
+
+*{
+  margin:0px;
+  padding:0px;
+  box-sizing: border-box;
+}
+
+.App {
+  height:100vh;
+  background:linear-gradient(120deg,rgb(0, 0, 0),#686868)
+}
+
+#screen{
+  position: absolute;
+  top: 55%;
+  left: 39%;
+  width: 20%;
+  height: 40vh;
+  overflow: auto;
+  display: block;
+}
+#screen ul{
+  list-style: none;
+}
+#screen ul li{
+  width: 94%;
+  height: 2.3rem;
+  display: flex;
+  margin: 2%;
+  color:whitesmoke;
+  background: #929292;
+  border-radius:2px;
+    border: 2px solid whitesmoke;
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: 'Merriweather', serif;
+    overflow:hidden
+  }
+  @media (min-width:815px){
+  #todo{
+    position: absolute;
+    top: 25%;
+    left:50%;
+    transform: translateX(-50%);
+    color: whitesmoke;
+    font-family: 'Indie Flower', cursive;
+    font-size: 5rem;
+  }
+  }
+  @media (max-width:815px){
+  #todo{
+    position: absolute;
+    top: 30%;
+    left:50%;
+    transform: translateX(-50%);
+    color: whitesmoke;
+    font-family: 'Indie Flower', cursive;
+    font-size: 3rem;
+  }
+  }
+  @media (max-width:485px){
+  #todo{
+    position: absolute;
+    top: 30%;
+    left:50%;
+    transform: translateX(-50%);
+    color: whitesmoke;
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.5rem;
+    font-weight: 900;
+  }
+  }
