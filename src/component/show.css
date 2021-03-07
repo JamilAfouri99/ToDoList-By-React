@@ -12,6 +12,13 @@ span{
     color: #a10000;
     transition: all 0.5s ease;
 }
+#btn2{
+    width: 2.22rem;
+    background: none;
+    border: none;
+    color: #006100;
+    transition: all 0.5s ease;
+}
 #btnn:hover{
     color:#a5a5a5;
     background:#a10000;
@@ -23,4 +30,22 @@ span{
     color:#a10000;
     border:2px solid #a10000;
     background:#a5a5a5;
+}
+#btn2:hover{
+    color:#a5a5a5;
+    background:#006100;
+}
+#btn2:focus{
+    outline:none;
+}
+#btn2:active{
+    color:#006100;
+    border:2px solid #006100;
+    background:#a5a5a5;
+}
+
+.donner{
+    text-decoration:line-through;
+    opacity:0.7;
+    color:#006100;
 }

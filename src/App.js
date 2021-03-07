@@ -33,12 +33,17 @@ class App extends Component {
       ...this.state.items.splice(index,1)
     });
   }
+  handledeleteall=()=>{
+    this.setState({
+      items:[]
+    })
+  }
 
   render(){
     return(
       <div className="App">
         <p id="todo">TO DO LIST</p>
-            <Add handleChange={this.handleChange} handleSubmit={this.handleSubmit} newTask={this.state.newTask}/>
+            <Add handleChange={this.handleChange} handledeleteall={this.handledeleteall} handleSubmit={this.handleSubmit} newTask={this.state.newTask}/>
         <div id="screen"> 
             <ul>
               {this.state.items.map((item,index)=>
