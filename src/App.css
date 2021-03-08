@@ -1,29 +1,34 @@
-
 *{
   margin:0px;
   padding:0px;
   box-sizing: border-box;
 }
-
+::selection{
+  background-color: black;
+  color:whitesmoke
+}
 .App {
   height:100vh;
-  background:linear-gradient(120deg,rgb(0, 0, 0),#686868)
+  background:linear-gradient(120deg,rgb(0, 0, 0),#686868);
 }
 
 #screen{
-  position: absolute;
+  position: relative;
   top: 55%;
-  left: 39%;
-  width: 20%;
-  height: 40vh;
+  left: 35%;
+  width: 30%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  height:40vh;
   overflow: auto;
-  display: block;
 }
 #screen ul{
   list-style: none;
+  margin:0px
 }
 #screen ul li{
-  width: 94%;
+  width: 97%;
   height: 2.3rem;
   display: flex;
   margin: 2%;

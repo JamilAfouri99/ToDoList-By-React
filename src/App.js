@@ -47,7 +47,7 @@ class App extends Component {
         <div id="screen"> 
             <ul>
               {this.state.items.map((item,index)=>
-              <li>
+              <li key={index}>
                 <Show handledelete={this.handledelete} index={index} key={index} item={item}/>
               </li>
               )}

@@ -1,5 +1,5 @@
-form{
-    width:20%;
+#innerDiv{
+    width:40%;
     margin:0px;
     padding:0px;
     position: absolute;
@@ -7,10 +7,21 @@ form{
     left:50%;
     transform: translate(-50%,-50%);
     border-radius: 0px;
+    background-color:red;
+    display: flex;
+    flex-direction: row;
+    height:5vh;
+}
+form{
+    flex:3;
+    width:80%;
+    height:100%;
+    background: blue;
 }
 #in{
+    margin:0px;
     width: 80%;
-    height: 2rem;
+    height:100%;
     background: none;
     border: none;
     background: whitesmoke;
@@ -18,32 +29,27 @@ form{
     font-size: 1.4rem;
     font-weight: 700;
 }
-
 #btn{
-    position:absolute;
-    height: 77%;
-    width: 16%;
+    width: 20%;
+    height:100%;
     background: whitesmoke;
     border: none;
     border-radius: 0px;
     font-size: 1.5rem;
     color:rgb(75, 75, 75);
-    transition:all 0.5 ease
+    transition:all 0.5 ease;
 }
 #btnn2{
-    position: absolute;
-    top: 50%;
-    left: 60%;
-    transform: translate(-15.5%,-65.7%);
+    width: 20%;
     border: none;
     border-radius: 0px;
-    height: 2rem;
     background: whitesmoke;
     color: #424242;
     font-size: 16px;
     font-weight: 700;
     padding: 0.2rem;
-    transition:all 0.5 ease
+    transition:all 0.5 ease;
+    flex:1;
 }
 #btn:focus{
     outline: none;
